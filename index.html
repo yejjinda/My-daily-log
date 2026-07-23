@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Diary & Photo Log</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        @page {
+            size: A4;
+            margin: 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #332924;
+            background-color: #faf8f5;
+            line-height: 1.6;
+        }
+        .header {
+            background-color: #5c6b53; /* Muted sage green tone */
+            color: #ffffff;
+            margin: -20mm -15mm 25px -15mm;
+            padding: 35mm 15mm 25px 15mm;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 8px 0;
+            font-size: 24pt;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .header p {
+            margin: 0;
+            font-size: 11pt;
+            opacity: 0.9;
+        }
+        .meta-box {
+            display: table;
+            width: 100%;
+            background-color: #ece8e1;
+            border-radius: 8px;
+            padding: 12px 15px;
+            margin-bottom: 25px;
+        }
+        .meta-item {
+            display: table-cell;
+            text-align: center;
+            font-size: 10pt;
+            color: #5a4d44;
+        }
+        .meta-item strong {
+            display: block;
+            font-size: 11pt;
+            color: #332924;
+            margin-bottom: 3px;
+        }
+        h2 {
+            font-size: 13pt;
+            color: #5c6b53;
+            border-left: 4px solid #5c6b53;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            page-break-after: avoid;
+        }
+        .section-box {
+            background-color: #ffffff;
+            border: 1px solid #e3ded5;
+            border-radius: 8px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+        }
+        .photo-placeholder {
+            width: 100%;
+            height: 160px;
+            background-color: #f0ece4;
+            border: 2px dashed #b8b0a2;
+            border-radius: 6px;
+            display: table;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        .photo-placeholder span {
+            display: table-cell;
+            vertical-align: middle;
+            color: #7d7266;
+            font-size: 10.5pt;
+            font-weight: 500;
+        }
+        .writing-lines {
+            border-bottom: 1px solid #e3ded5;
+            height: 32px;
+            margin-bottom: 10px;
+        }
+        .prompt-text {
+            font-size: 10.5pt;
+            color: #6b5e52;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .footer-note {
+            text-align: center;
+            font-size: 9.5pt;
+            color: #8c7f72;
+            margin-top: 30px;
+            font-style: italic;
+        }
+        .math {
+            font-family: 'Times New Roman', serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #5c6b53;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>✨ Daily Diary & Photo Log</h1>
+        <p>Capture your precious moments, thoughts, and daily reflections</p>
+    </div>
+
+    <div class="meta-box">
+        <div class="meta-item">
+            <strong>Date</strong>
+            July <span class="math">23</span>, <span class="math">2026</span>
+        </div>
+        <div class="meta-item">
+            <strong>Day Mood</strong>
+            😊 Calm & Inspired
+        </div>
+        <div class="meta-item">
+            <strong>Weather</strong>
+            ☀️ Sunny & Pleasant
+        </div>
+    </div>
+
+    <h2>📸 Today's Highlight Photo</h2>
+    <div class="section-box">
+        <div class="photo-placeholder">
+            <span>[ Insert Photo or Sketch Here ]</span>
+        </div>
+        <div style="font-size: 9.5pt; color: #7d7266; text-align: center;">
+            Caption: A memorable snapshot that made today special.
+        </div>
+    </div>
+
+    <h2>✍️ Daily Journal & Reflections</h2>
+    <div class="section-box">
+        <div class="prompt-text">What was the most meaningful event or thought today?</div>
+        <div class="writing-lines"></div>
+        <div class="writing-lines"></div>
+        <div class="writing-lines"></div>
+        
+        <div class="prompt-text" style="margin-top: 15px;">What are you grateful for right now?</div>
+        <div class="writing-lines"></div>
+        <div class="writing-lines"></div>
+    </div>
+
+    <h2>🌱 Rose, Thorn & Bud (Daily Growth)</h2>
+    <div class="section-box">
+        <p style="margin: 0 0 10px 0; font-size: 10pt;"><strong>🌹 Rose (Highlight/Achievement):</strong> Successfully wrapped up core tasks and enjoyed a peaceful afternoon.</p>
+        <p style="margin: 0 0 10px 0; font-size: 10pt;"><strong>🌵 Thorn (Challenge/Obstacle):</strong> Faced minor unexpected delays during the morning schedule.</p>
+        <p style="margin: 0; font-size: 10pt;"><strong>🌱 Bud (Looking Forward):</strong> Planning to organize tomorrow's workflow more efficiently.</p>
+    </div>
+
+    <div class="footer-note">
+        "Every day is a new blank page waiting for your unique story."
+    </div>
+
+</body>
+</html>
